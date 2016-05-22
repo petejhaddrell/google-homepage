@@ -1,3 +1,7 @@
+html {
+	font-family: Helvetica, Arial;
+}
+
 div {
 	margin: 0;
 	padding: 0;
@@ -6,6 +10,15 @@ div {
 div div {
 	/*border: 2px dashed black;*/
 	margin-top:89px
+}
+
+a {
+	text-decoration: none;
+	color: #424242;
+}
+
+a:hover {
+	text-decoration: underline;
 }
 
 .logo {
@@ -47,7 +60,6 @@ div div {
 	font-size: 14px;
 	background-color: #F2F2F2;
 	font-color: #424242;
-	font: Helvetica, Arial;
 	display: block;
 	margin-top: 30px;
 	margin-left: -130px;
@@ -59,8 +71,50 @@ div div {
 	font-size: 14px;
 	background-color: #F2F2F2;
 	font-color: #424242;
-	font: Helvetica, Arial;
 	display: block;
 	margin-top: -39px;
 	margin-left: 0px;
 }
+
+.header {
+	height: 40px;
+	text-decoration: none;
+	text-align: right;
+	display: block;
+	margin-top: auto;
+	padding-top: 0px;
+	font-size: 14px;
+}
+
+.bar_image {
+	vertical-align: middle;
+}
+
+#notif {
+	width: 12px;
+	height: 12px;
+	vertical-align: middle;
+	padding-top: 4px;
+	margin-right: -2px;
+}
+
+.round_image {
+	width: 23px;
+	height: 23px;
+	border-radius: 20px;
+	background-color: #424242;
+	display: inline-block;
+	margin-top: auto;
+	vertical-align: middle;
+}
+
+.round_image:hover {
+	background-color: #000000;
+}
+
+#pic {
+	width: 24px;
+	height: 23px;
+	border-radius: 20px;
+}
+
