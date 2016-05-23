@@ -13,8 +13,9 @@ div div {
 }
 
 a {
+	font-size: 13px;
 	text-decoration: none;
-	color: #424242;
+	color: #6E6E6E;
 }
 
 a:hover {
@@ -59,7 +60,7 @@ a:hover {
 	padding: 8px 13px;
 	font-size: 14px;
 	background-color: #F2F2F2;
-	font-color: #424242;
+	color: #424242;
 	display: block;
 	margin-top: 30px;
 	margin-left: -130px;
@@ -70,7 +71,7 @@ a:hover {
 	padding: 8px 13px;
 	font-size: 14px;
 	background-color: #F2F2F2;
-	font-color: #424242;
+	color: #424242;
 	display: block;
 	margin-top: -39px;
 	margin-left: 0px;
@@ -83,7 +84,6 @@ a:hover {
 	display: block;
 	margin-top: auto;
 	padding-top: 0px;
-	font-size: 14px;
 }
 
 .bar_image {
@@ -94,15 +94,15 @@ a:hover {
 	width: 12px;
 	height: 12px;
 	vertical-align: middle;
-	padding-top: 4px;
-	margin-right: -2px;
+	padding-top: 3px;
+	margin-right: -2.75px;
 }
 
 .round_image {
 	width: 23px;
 	height: 23px;
 	border-radius: 20px;
-	background-color: #424242;
+	background-color: #BDBDBD;
 	display: inline-block;
 	margin-top: auto;
 	vertical-align: middle;
@@ -118,3 +118,29 @@ a:hover {
 	border-radius: 20px;
 }
 
+#footer {
+	background-color: #F2F2F2;
+	left: 0;
+	bottom: 0;
+	height: 40px;
+	width: 100%;
+	border-top: 2px solid #E6E6E6;
+	position: absolute;
+}
+
+.l_text {
+		display: block;
+		text-align: left;
+		left: 25px;
+		bottom: 12px;
+		position: absolute;
+}
+
+.r_text {
+		position: absolute;
+		display: block;
+		text-align: left;
+		vertical-align: middle;
+		right: 10px;
+		bottom: 12px;
+}
