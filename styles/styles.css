@@ -51,30 +51,45 @@ a:hover {
 .submit {
 	width: 1px;
 	margin: auto;
-	overflow: visible;
-	background: red;
 }
 
 #search {
 	border: 2px solid #F2F2F2;
-	padding: 8px 13px;
-	font-size: 14px;
+	padding: 8px 15px;
+	font-size: 13px;
+	font-weight: bold;
 	background-color: #F2F2F2;
-	color: #424242;
+	color: #6E6E6E;
 	display: block;
+	position: relative;
 	margin-top: 30px;
-	margin-left: -130px;
+	margin-left: -140px;
+}
+
+#search:hover {
+	color: #2E2E2E;
+	border: 0.5px solid #BDBDBD;
+	padding: 9.5px 16.5px;
 }
 
 #lucky {
 	border: 2px solid #F2F2F2;
-	padding: 8px 13px;
-	font-size: 14px;
+	padding: 8px 15px;
+	font-size: 13px;
+	font-weight: bold;
 	background-color: #F2F2F2;
-	color: #424242;
+	color: #6E6E6E;
 	display: block;
-	margin-top: -39px;
+	position: absolute;
+	margin-top: -38px;
 	margin-left: 0px;
+
+}
+
+#lucky:hover {
+	color: #2E2E2E;
+	border: 0.5px solid #BDBDBD;
+	padding: 9.5px 16.5px;
 }
 
 .header {
